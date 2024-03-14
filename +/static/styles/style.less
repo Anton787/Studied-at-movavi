@@ -1,0 +1,145 @@
+// Подключить шрифт OpenSans с сайта 
+// fonts.google.com
+// подключить шрифт через ссылку (1)
+// подключить шрифт как файл
+// жирности normak (500) и bold(700)
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: normal; // 500
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-weight: bold; // 500
+    font-style: normal;
+}
+
+@primary: #603232;
+@second: #BE8164;
+@light: #FFFFFF;
+@light-bg: #EDEFF5;
+@light-text: #9CA5AF;
+@text: #1e2022;
+
+h1, h2, h3, h4, h5, h6, a, p, span {
+    font-family: 'OpenSans';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 4.6rem;
+    margin-bottom: 26px;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.05rem;
+}
+
+p {
+    line-height: 36px;
+    color: @text;
+    margin: 16px 0px;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #dadada;
+}
+
+// Стили для шапки
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    padding: 0px 6%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.horiz-menu {
+    display: flex;
+    justify-content: space-between;
+    li:not(:last-child){
+        margin-right: 40px;
+    }
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: @light-text;
+    }
+
+    li:hover a, a:visited {
+        color: @primary;
+        cursor: pointer;
+    }
+    
+}
+
+// Стили для основной страницы
+
+main {
+    width: 1200px;
+    height: calc(100vh - 100px);
+    // position: relative;
+    padding-top: 100px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+}
+
+.description {
+    width: 500px;
+    p {
+        color: @light;
+    }
+}
+
+.gallery {
+    width: 700px;
+    height: 100%;
+    margin-left: 80px;
+    position: relative;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+
+.cards {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+.controls {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

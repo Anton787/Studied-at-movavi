@@ -1,0 +1,265 @@
+/* Шапка */
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.a {
+    width: 1400px;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.emblem {
+    width: ;
+}
+
+ul.menu {
+    position: absolute;
+    list-style-type: none;
+    width: 560px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    top: 0;
+}
+
+.menu-left {
+    background-image: url(img/Vector_left.png);
+    left: 0;
+}
+
+.menu-right {
+    background-image: url(imd/Vector_right.png);
+    right: 0;
+}
+
+li {
+    float: left;
+    margin-left: 10px;
+    height: 100px;
+    line-height: 110px;
+    margin-right: 20px;
+}
+
+.first {
+    margin-left: 115px;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.foto {
+    position: relative;
+    height: 100px;
+    width: 500px;
+    z-index: -1;
+    left: 1200px;
+    bottom: 60px;
+}
+
+.hah {
+    width: 500px;
+    height: 100px;
+    position: relative;
+    z-index: -2;
+    right: 450px;
+    bottom: 60px;
+}
+
+.tera {
+    display: block;
+    width: 250px;
+    margin: auto;
+}
+
+/* Основа */
+
+body {
+    margin: 0px 0px 0px 0px;
+    background-color: rgb(29, 29, 51);
+}
+
+h2 {
+    color: rgb(203, 203, 231);
+    font-family: Arial;
+}
+
+.b {
+    position: relative;
+    z-index: 1;
+    width: 1400px;
+    height: 100vh;
+    margin: auto;
+}
+
+.d {
+    height: 700px;
+}
+
+/* середина */
+
+.fon, .fon-grad {
+    position: absolute;
+    width: 100%;
+    min-height: 1080px;
+    height: 100vh;
+    left: 0px;
+    right: 0px;
+}
+
+.fon {
+    z-index: -2;
+    background-image: url(img/tera-wallpaper-hd-1920x1200-234000.jpg);
+    mix-blend-mode: overlay;
+}
+
+.fon-grad {
+    z-index: -1;
+    background: linear-gradient(360deg, #0E1633 0%, rgba(14, 22, 51, 0) 51.86%);
+}
+
+.geroy {
+    position: absolute;
+    right: -50px;
+    bottom: 10px;
+    z-index: -1;
+}
+
+.block {
+    width: 800px;
+    height: 375px;
+    position: relative;
+    top: 350px;
+    left: 0px;
+    z-index: -2;
+    padding-top: 25px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    background-color: rgba(12, 17, 34, 0.7);
+    box-shadow: -7px 4px 40px rgba(58, 80, 158, 0.56);
+    border-radius: 20px;
+}
+
+.Tera {
+    font-size: 50px;
+}
+
+p {
+    color: aquamarine;
+    font-family: Arial;
+}
+
+input {
+    background-color: blue;
+    border-radius: 9px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 25px;
+    color: aquamarine;
+    font-size: large;
+    font-family: Arial;
+}
+
+/* низ */
+
+.R {
+    width: 400px;
+    font-size: 100px;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: -1;
+}
+
+.geroy2 {
+    position: relative;
+    bottom: px;
+    right: 100px;
+    z-index: 1;
+}
+
+.fon2 {
+    position: relative;
+    bottom: 1000px;
+}
+
+.human {
+    width: 400px;
+    height: 261px;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 51);
+    position: relative;
+    left: 500px;
+    bottom: 700px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.castanics {
+    width: 400px;
+    height: 261px;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 51);
+    position: relative;
+    left: 500px;
+    bottom: 650px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.amani {
+    width: 400px;
+    height: 261px;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 51);
+    position: relative;
+    left: 950px;
+    bottom: 1263px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.high {
+    width: 400px;
+    height: 261px;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 51);
+    position: relative;
+    left: 950px;
+    bottom: 1210px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.baraka {
+    width: 400px;
+    height: 261px;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 51);
+    position: relative;
+    left: 1400px;
+    bottom: 1825px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.elin {
+    width: 400px;
+    height: 261px;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 51);
+    position: relative;
+    left: 1400px;
+    bottom: 1770px;
+    padding: 10px;
+    padding-left: 20px;
+}

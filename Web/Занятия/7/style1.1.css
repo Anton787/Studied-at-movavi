@@ -1,0 +1,33 @@
+.content{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.content2{
+    width: 5%;
+    height: 100%;
+    float: left;
+    background-color: rgb(94, 94, 94);
+}
+
+.content3{
+    width: 10%;
+    height: 100%;
+    float: left;
+    background-color: rgb(92, 92, 92);
+}
+
+.content4{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: rgb(55, 56, 56);
+}
+
+.content5{
+    width: 65%;
+    height: 100%;
+    float: left;
+    background-color: rgb(31, 31, 31);
+}

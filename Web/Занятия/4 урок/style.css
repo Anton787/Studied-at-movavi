@@ -1,0 +1,46 @@
+.p {
+    width: 40%;
+    border: 1px solid red;
+    padding: 20px;
+    margin: 50px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.a, .b, .c, .d, .r {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.a {
+    padding: 10px;
+    margin: 10px;
+}
+.b {
+    padding: 10px 40px;
+    margin: 20px 35px;
+}
+.c {
+    padding: 30px 50px 10px;
+    margin: 10px 250px 15px;
+}
+.d {
+    padding: 150px 50px 20px 35px;
+    margin: 10px 20px 30px 40px;
+}
+.r {
+    margin: 0px auto;
+}
+li {
+    width: 50px;
+    background-color: #a3a3a3;
+    margin-bottom: 10px;
+    float: left;
+    list-style-type: none;
+}
+ul {
+    margin-right: 0; 
+    padding-left: 0;
+}

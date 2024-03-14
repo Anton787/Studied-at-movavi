@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/regist.css">
+  <script src="/js/script.js" defer></script>
+  <title>Тайный Санта</title>
+</head>
+
+<body>
+  <header>
+    <a href="/">
+      <div class="logo"><img src="/img/santa-claus.png" alt=""></div>
+    </a>
+    <div class="name">
+      <h1>Тайный Санта</h1>
+    </div>
+  </header>
+  <main>
+    <div class="regist">
+      <form action="/" method="get">
+        <div class="container">
+
+          <label for="email"><b>Name</b></label> 
+          <input type="text" placeholder="Enter username" name="email" required> <br>
+
+          <label for="id"><b>ID</b></label>
+          <input type="text" placeholder="Enter you ID" name="id" required> <br>
+
+          <a href="/"> <button type="submit" id="registr" class="registerbtn">Зарегистрироваться</button> </a>
+        </div>
+      </form>
+    </div>
+    <p> Уже есть аккаунт?<label class="link" for="hider" id="clickme"> Войдите.</label> </p>
+
+    <input type="checkbox" id="hider">
+    <div class="content"> <label for="email"><b>Name</b></label>
+      <input type="text" placeholder="Enter username" name="name" required> <br>
+
+      <label for="id"><b>ID</b></label>
+      <input type="text" placeholder="Enter ID" name="id" required> <br>
+
+      <a href="/"> <button type="submit" id="registr" class="registerbtn">Войти</button> </a>
+    </div>
+
+  </main>
+</body>
+
+</html>

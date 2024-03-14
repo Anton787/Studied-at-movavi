@@ -1,0 +1,42 @@
+input {
+    display: none;
+}
+
+.button {
+    width: 120px;
+    height: 67px;
+    background-color: rgb(9, 99, 76);
+    color: white;
+    line-height: 67px;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+label:hover .button {
+    background-color: rgb(15, 114, 89);
+}
+
+label:active .button{
+    background-color: rgb(6, 73, 56);
+}
+
+div:not(.button) {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: -200px;
+    background-color: rgb(185, 115, 29);
+    margin-bottom: 10px;
+}
+
+.box1 {
+    transition: all 0.2s 1s ease-in-out;
+}
+.box2 {
+    transition: all 0.2s 2.2s ease-in-out;
+}
+
+input:checked ~ div {
+    left: 0px;
+}

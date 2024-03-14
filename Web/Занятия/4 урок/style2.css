@@ -1,0 +1,10 @@
+.a, .b, .c, .d, .e{
+   float: left;
+    list-style-type: none;
+    border: 2px solid blue;
+    margin-left: 10px;
+    font-style: 'Arial'
+}
+a {
+     text-decoration: none;
+}

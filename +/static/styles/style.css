@@ -1,0 +1,124 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  p,
+  span {
+    font-family: 'OpenSans';
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+  }
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 4.6rem;
+    margin-bottom: 26px;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.05rem;
+  }
+  p {
+    line-height: 36px;
+    color: #1e2022;
+    margin: 16px 0px;
+  }
+  body {
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #dadada;
+  }
+  header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    padding: 0px 6%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .horiz-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .horiz-menu li:not(:last-child) {
+    margin-right: 40px;
+  }
+  .horiz-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #9CA5AF;
+  }
+  .horiz-menu li:hover a,
+  .horiz-menu a:visited {
+    color: #603232;
+    cursor: pointer;
+  }
+  main {
+    width: 1200px;
+    height: calc(100vh - 100px);
+    padding-top: 100px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+  }
+  .description {
+    width: 500px;
+  }
+  .description p {
+    color: #FFFFFF;
+  }
+  .gallery {
+    width: 700px;
+    height: 100%;
+    margin-left: 80px;
+    position: relative;
+    padding: 20px 0px;
+    box-sizing: border-box;
+  }
+  .cards {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+  }
+  .controls {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }

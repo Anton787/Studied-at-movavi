@@ -1,0 +1,99 @@
+html body{
+    width: 100%;
+    background-color: rgba(206, 13, 13, 0.952);
+}
+
+html a{
+    text-decoration: none;
+    color: rgb(214, 185, 24);
+}
+p{
+    margin: 0px;
+}
+
+
+
+/* Шапка */
+
+header{
+    width: 100%;
+    height: 150px;
+    background-image: url(image/igrushki-shariki-banty.jpg);
+}
+.newslogo, .mainlogo, .gallery{
+    border: 1px solid black;
+    height: 140px;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+    
+.newslogo:hover, .mainlogo:hover, .gallery:hover{
+    background-color:rgb(22, 22, 22);
+}
+
+.newslogo, .gallery{
+    width: 190px;
+}
+
+.col-2{
+    display: flex;
+}
+
+/* На главную */
+.mainlogo{
+    display: flex;
+    justify-content: center;
+}
+
+.maintext{
+    margin: 0px;
+}
+
+.logo{
+    height: 100px;
+}
+
+/* На новости */
+
+.newslogo{
+    display: flex;
+}
+
+.logo2{
+    height: 100px;
+}
+
+/* На галерею */
+
+.logo3{
+    height: 100px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: right;
+}
+
+/* Основа */
+
+.body{
+    width: 100%;
+    height: 1000px; 
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    position: absolute;
+    top: 550px;
+}
+
+img{
+    margin: 5px 5px 5px 5px ;
+}

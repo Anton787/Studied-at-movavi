@@ -1,0 +1,49 @@
+/* ШАПКА */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Main-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Главная */
+main{
+    display: flex;
+    justify-content: space-around;
+}
+/* Температура */
+
+.temperature{
+    display: flex;
+    flex-direction: column;
+}
+
+.system-img {
+    height: 459px;
+}
+
+/* Инфа */
+
+.full-info{
+    display: flex;
+    flex-direction: column;
+    width: 573px;
+}
+
+.descrip, .info, .ipdate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Upgrate */
+
+.ipdate{
+    margin-top: 50px;
+}

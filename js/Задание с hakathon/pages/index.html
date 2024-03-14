@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">`
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COOLMINER</title>
+    <link rel="stylesheet" href="/скрипты и т.д/style/styles.css">
+    <script src="/скрипты и т.д/scripts/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p class="Main-text">COOLMINER</p>
+        </div>
+        <div class="profile">
+            <button>Profile</button>
+        </div>
+    </header>
+    <main>
+        <div class="pc-view">
+            <div class="temperature">
+                <p>Temperature</p>
+                <div class="scale"></div>
+            </div>
+            <div class="onoff">
+                <form action="/onoff" method="get">
+                    <label for="on"><input type="radio" name="on" id="on">ON</label><br>
+                    <label for="off"><input type="radio" name="on" id="off">OFF</label><br>
+                </form>
+            </div>
+            <div class="preview">
+                <img src="/скрипты и т.д/images/SYSTEM.jpg" class="system-img" alt="ПК">
+            </div>
+            <button>Equipment</button>
+        </div>
+        <div class="full-info">
+            <div class="stats">
+                <h2></h2>
+                <div class="descrip">
+                    <div class="speed">
+                        <p class="title">Speed</p>
+                        <p class="info">20 Mh</p>
+                    </div>
+                    <div class="iloncoin">
+                        <p class="title">IlonCoin</p>
+                        <p class="info" id="coins">111</p>
+                    </div>
+                    <div class="cards">
+                        <p class="title">Cards</p>
+                        <p class="info" id="card">1</p>
+                    </div>
+                    <div class="cooler">
+                        <p class="title">Coolers</p>
+                        <p class="info" id="cooler">1</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="lvl">
+                        <p class="title">LVL</p>
+                        <p class="info">1</p>
+                    </div>
+                    <div class="exchange">
+                        <p class="title">exchange rates</p>
+                        <p class="info">1 IC = 1,2$</p>
+                    </div>
+                    <div class="miners">
+                        <p class="title">Miners</p>
+                        <p class="info">2</p>
+                    </div>
+                </div>
+                <div class="ipdate">
+                    <button id="buyCooler">
+                        <div class="fan">
+                            <div class="image"><img src="/скрипты и т.д/images/FAN.jpg" style="width: 100px;" alt="">
+                            </div>
+                            <p class="info">10 IC</p>
+                        </div>
+                    </button>
+                    <button id="buyCard">
+                        <div class="card">
+                            <div class="image"><img src="/скрипты и т.д/images/CARD3.png"
+                                    style="width: 100px; height: 100px;" alt=""></div>
+                            <p class="info">100 IC</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Movavi School Fest, 2021</p>
+    </footer>
+</body>
+
+</html>

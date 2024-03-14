@@ -1,0 +1,306 @@
+html body{
+    width: 100%;
+    background-color: rgb(1, 1, 32);
+}
+
+html a{
+    text-decoration: none;
+    color: rgb(24, 214, 189);
+}
+
+p{
+    margin: 0px;
+}
+
+/* Шапка */
+
+header{
+    width: 100%;
+    height: 150px;
+    background-image: url(image/igrushki-shariki-banty.jpg);
+}
+.newslogo, .mainlogo, .gallery{
+    border: 1px solid black;
+    height: 140px;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.newslogo:hover, .mainlogo:hover, .gallery:hover{
+    background-color:rgb(22, 22, 22);
+}
+
+.newslogo, .gallery{
+    width: 190px;
+}
+
+.col-2{
+    display: flex;
+}
+
+/* На главную */
+.mainlogo{
+    display: flex;
+    justify-content: center;
+}
+
+.maintext{
+    margin: 0px;
+}
+
+.logo{
+    height: 100px;
+}
+
+/* На новости */
+
+.newslogo{
+    display: flex;
+}
+
+.logo2{
+    height: 100px;
+}
+
+/* На галерею */
+
+.logo3{
+    height: 100px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: right;
+}
+
+/* Фон body */
+
+.body{
+    width: 100%;
+    height: 1080px;
+    margin-top: 20px;
+    background-image: url(image/3901970.jpg);
+    padding-top: 50px;
+}
+
+/* План */
+
+.block{
+    display: flex;
+    justify-content: center;
+}
+
+.planblock{
+    width: 940px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgb(99, 11, 11);
+    padding: 10px;
+    box-shadow: -13px 2px 20px 9px rgba(255, 247, 209, 0.56);
+    display: flex;
+    justify-content: center;
+    transition: all 2s ease-out;
+}
+
+.planblock:hover{
+    background-color: blue;
+}
+
+.plan{
+    color: rgb(36, 212, 130);
+    font-size: 40px;
+}
+
+.textplan{
+    color:  rgb(36, 212, 130);
+    font-size: 20px;
+
+}
+
+.hz{
+    position: absolute;
+    right: 800px;
+    bottom: 100px;
+    height: 400px;
+    border-radius: 100%;
+}
+
+/* Анимация */
+
+input {
+    display: none;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(60, 255, 0);  
+    box-shadow: -2px 1px 20px 0px rgba(243, 239, 0, 0.56);
+    position: absolute;
+    top: 300px;
+    left: 825px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+
+label:hover .button {
+    background-color:rgb(66, 212, 21);
+}
+
+label:active .button{
+    background-color: rgb(36, 143, 3);
+}
+
+.one, .two, .three, .four{
+    width: 500px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: rgb(99, 11, 11);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    box-shadow: -13px 2px 20px 9px rgba(32, 146, 61, 0.56);
+    position: relative;
+    left: -700px;
+}
+
+
+input:checked ~ .one, input:checked ~ .two, input:checked ~ .three, input:checked ~ .four,{
+    left: 0px;
+}
+
+
+.one{
+    transition: all 0.2s 1s ease-in-out;
+}
+
+.one:hover{
+    background-color: blue;
+}
+
+
+
+.two{
+    width: 500px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: rgb(99, 11, 11);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    box-shadow: -13px 2px 20px 9px rgba(38, 0, 255, 0.56);
+    position: relative;
+    transition: all 2s ease-out;
+}
+
+.two:hover{
+    background-color: blue;
+}
+
+.run{
+    z-index: 333333333;
+    position: absolute;
+    height: 90px;
+    top: 545px;
+    left: 400px;
+}
+
+.three{
+    width: 500px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: rgb(99, 11, 11);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    box-shadow: -13px 2px 20px 9px rgba(105, 230, 48, 0.678);
+    position: relative;
+    transition: all 2s ease-out;
+}
+
+.three:hover{
+    background-color: blue;
+}
+
+.four{
+    width: 550px;
+    height: 310px;
+    border-radius: 30px;
+    background-color: rgb(99, 11, 11);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: -13px 2px 20px 9px rgba(27, 149, 197, 0.56);
+    position: relative;
+    left: 0px ;
+    transition: all 2s ease-out;
+}
+
+.four:hover{
+    background-color: blue;
+}
+
+.imposter{
+    position: absolute;
+    left: 1px;
+    top: 200px;
+    width: 550px;
+}
+
+.oops{
+    color: rgb(35, 207, 135);
+}
+
+/* VIDEO */
+
+.video{
+    width: 690px;
+    height: 600px;
+    border-radius: 30px;
+    background-color: rgb(99, 11, 11);
+    padding: 15px;
+    box-shadow: -13px 2px 20px 9px rgba(27, 149, 197, 0.56);
+    transition: all 2s ease-out;
+    position: absolute;
+    left: 1100px;
+    top: 450px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.textvideo{
+    color:  rgb(36, 212, 130);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* comments */
+
+#vk_comments{
+    margin: auto;
+}
+.comments{
+    color:  rgb(36, 212, 130);
+    font-size: 25px;
+    border-radius: 30px;
+    background-color: rgb(99, 11, 11);
+    width: 100%;
+    padding: 15px;
+}
+

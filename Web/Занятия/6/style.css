@@ -1,0 +1,236 @@
+/* ВЛОЖЕННОСТИ */
+
+div.one > a{
+ color: rebeccapurple;
+}
+
+.one a{
+    color: turquoise;
+}
+ul>li>ul>li{
+    color: yellow;
+}
+
+
+/* ПСЕВДОКЛАССЫ */
+
+a:hover {
+    color: green;
+}
+
+ul>li>ul>li:hover{
+    color: rgb(187, 207, 188);
+    width: 150px;
+    height: 50px;
+    background-color: rgb(100, 100, 110);
+}
+
+#one:target{
+    background-color: rgb(206, 94, 94);
+}
+
+a:active{
+    color: blueviolet;
+}
+
+a:visited{
+    color: brown;
+}
+
+
+/* ПСЕВДОКЛАССЫ ДРЕВА СТРАНИЦЫ */
+
+ol li:nth-last-child(1){
+    color: rgb(255, 0, 0);
+}
+
+ol li:nth-child(2n+1){
+    color: rgb(109, 250, 255);
+}
+
+/* СОЧЕТАНИЕ ПВСЕВДОКЛАССОВ */
+
+ol:not(.three) li:nth-child(2n):hover{
+    background-color: rgb(214, 105, 65);
+}
+
+ol:not(.three):hover li:nth-child(2n+1){
+    background-color: crimson;
+}
+
+ol.three > li {
+    width: 150px;
+    height: 60px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(63, 126, 134);
+}
+
+ol.three>li:hover + li +li{
+    background-color: rgb(25,233,18     8);
+}   
+
+ol.three>li:hover ~ li {
+    background-color: rgb(75, 117, 34);
+}
+
+ol* {
+    font-size: 26px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

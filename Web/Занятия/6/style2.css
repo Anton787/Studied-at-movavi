@@ -1,0 +1,60 @@
+b + i {
+    color: chocolate;
+}
+
+p#test> b + i {
+    color: cornflowerblue;
+}
+
+ul+p{
+    color: red;
+}
+
+h1~p{
+    color: red;
+}
+
+#test h2~p {}
+
+* {}
+
+p>* i {}
+
+input[type=buttom]{}
+
+ul>li{
+    width: 200px;
+    height: 60px;
+    border: 2px solid blueviolet;
+}
+
+ul>li:hover{
+    background-color: green;
+}
+
+ul>li:hover ~ li:nth-child(2n+3){
+    background-color: red   ;
+}
+
+input:checked + label{
+    color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
